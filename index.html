@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<script src="tarteaucitron/tarteaucitron.js"></script>
+    <script>
+        tarteaucitron.init({
+            "privacyUrl": "", /* URL de la page de la politique de vie privée */
+
+            "hashtag": "#tarteaucitron", /* Ouvrir le panneau contenant ce hashtag */
+            "cookieName": "tarteaucitron", /* Nom du Cookie */
+
+            "orientation": "middle", /* Position de la bannière (top - bottom) */
+            "showAlertSmall": true, /* Voir la bannière réduite en bas à droite */
+            "cookieslist": true, /* Voir la liste des cookies */
+
+            "adblocker": false, /* Voir une alerte si un bloqueur de publicités est détecté */
+            "AcceptAllCta": true, /* Voir le bouton accepter tout (quand highPrivacy est à true) */
+            "highPrivacy": true, /* Désactiver le consentement automatique */
+            "handleBrowserDNTRequest": false, /* Si la protection du suivi du navigateur est activée, tout interdire */
+
+            "removeCredit": false, /* Retirer le lien vers tarteaucitron.js */
+            "moreInfoLink": true, /* Afficher le lien "voir plus d'infos" */
+            "useExternalCss": false, /* Si false, tarteaucitron.css sera chargé */
+
+            //"cookieDomain": ".my-multisite-domaine.fr", /* Cookie multisite */
+
+            "readmoreLink": "/cookiespolicy" /* Lien vers la page "Lire plus" */
+		});
+		
+		tarteaucitron.user.gtagUa = 'UA-97102682-4';
+        tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+		(tarteaucitron.job = tarteaucitron.job || []).push('gtag','facebook','youtube');
+	</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cookies</title>
+	<style>
+		#tarteaucitronDisclaimerAlert{
+			color: rebeccapurple !important;
+		}
+		body #tarteaucitronRoot div#tarteaucitronAlertBig{
+			border-radius: 0 !important;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="youtube_player" videoID="Gjrrgv4-S9k" width="560" height="315" theme="light" rel="1" controls="1" showinfo="1" autoplay="0"></div>
+
+	<div class="fb-like" data-layout="standard" data-action="like" data-share="true"></div>
+</body>
+</html>
